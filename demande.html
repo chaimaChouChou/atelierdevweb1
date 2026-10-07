@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Demande | Bibliothèque de l’ISET du Kef</title>
+</head>
+<body>
+<header>
+<h1>Bibliothèque de l’ISET du Kef</h1>
+<p>Lire, apprendre et partager</p>
+</header>
+<nav aria-label="Navigation principale">
+<a href="accueil.html">Accueil</a>
+<a href="catalogue.html">Catalogue</a>
+<a href="demande.html">Demande</a>
+</nav>
+<main>
+<section id="demande">
+<h2>Demande d’emprunt</h2>
+<p>Les champs Nom, Email et Livre sont obligatoires.</p>
+<form action="atelier.html" method="get">
+<p>
+<label for="prenom">Prénom</label>
+<input id="prenom" name="prenom"
+type="text" required>
+</p>
+<p>
+<label for="courriel">Email</label>
+<input id="courriel" name="courriel"
+type="email" required>
+</p>
+<p>
+<label for="activite">Atelier</label>
+<select id="activite" name="activite"
+required>
+<option value="">Choisir</option>
+<option value="photo">Photo</option>
+<option value="musique">Musique</option>
+</select>
+</p>
+<p>
+<label for="note">Note</label>
+<textarea id="note" name="note"
+rows="2" cols="18"></textarea>
+</p>
+<button type="submit">S’inscrire</button>
+</form>
+</section>
+</main>
+<footer>
+<p>Institut supérieur des études technologiques du Kef</p>
+<p>Contact fictif : bibliotheque@example.test</p>
+</footer>
+</body>
+</html>
